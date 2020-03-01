@@ -1,0 +1,18 @@
+# Basic
+
+- [Python Install](python_install.md)
+- [Python IDEs](ides.md)
+- [Introduction](introduction.md)
+- [Basic Syntax](basic_syntax.md)
+- [Variables](variables.md)
+- [Data Types](data_types.md)
+- [Numbers](numbers.md)
+- [Strings](strings.md)
+- [Booleans](booleans.md)
+- [Casting](casting.md)
+- [Operators](operators.md)
+- [Control Structures](control_structures.md)
+- [Functions](functions.md)
+- [Lamda Functions](lamda_functions.md)
+- [Scope](scope.md)
+- [Try Except](try_except.md)
