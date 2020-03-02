@@ -13,6 +13,7 @@
 - #### [Operators](basic/operators.md)
 - #### [Control Structures](basic/control_structures.md)
 - #### [Functions](basic/functions.md)
-- #### [Lamda Functions](basic/lamda_functions.md)
+- #### [Lambda Functions](basic/lambda_functions.md)
 - #### [Scope](basic/scope.md)
 - #### [Try Except](basic/try_except.md)
+- #### [Files](basic/files.md)
