@@ -15,5 +15,6 @@
 - #### [Functions](basic/functions.md)
 - #### [Lambda Functions](basic/lambda_functions.md)
 - #### [Scope](basic/scope.md)
+- #### [Casting](basic/casting.md)
 - #### [Try Except](basic/try_except.md)
 - #### [Files](basic/files.md)
