@@ -1,2 +1,44 @@
 # Operators
 ---
+
+- ### Arithmetic Operator
+  - Addition(+)
+  - Subtraction(-)
+  - Multiplication(*) 
+  - Division(/)
+  - Exponentiation(**)
+  - Floor Division(//)
+  - Modulus(%)
+- ### Relational Operator
+  - Less than(<)
+  - Greater than(>)
+  - Less than or equal to(<=)
+  - Greater than or equal to(>=)
+  - Equal to(= =)
+  - Not equal to(!=)
+- ### Assignment Operator
+  - Assign(=)
+  - Add and Assign(+=)
+  - Subtract and Assign(-=)
+  - Divide and Assign(/=)
+  - Multiply and Assign(*=)
+  - Multiply and Assign(*=)
+  - Exponent and Assign(**=)
+  - Floor-Divide and Assign(//=)
+- ### Logical Operator
+  - and
+  - or
+  - not
+- ### Membership Operator
+  - in
+  - not in
+- ### Identity Operator
+  - is
+  - is not
+- ### Bitwise Operator
+  - Binary AND(&)
+  - Binary OR(|)
+  - Binary XOR(^)
+  - Binary One’s Complement(~)
+  - Binary Left-Shift(<<)
+  - Binary Right-Shift(>>)

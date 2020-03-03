@@ -91,7 +91,7 @@
         soup = BeautifulSoup(response.content, 'html.parser')
         ~~~~ 
         - Functions find() and find_all().
-        Find() for get one result and find_all() for get all results.
+        Find() for get one result and find_all() for get all results.tt
         ~~~~
         body = soup.find('body')
         div = soup.find_all('div')
