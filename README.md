@@ -4,8 +4,9 @@
 <br>
 
 #### Hey everyone! This is my effort for make a Big Guide for Python and anything for it.
+#### I will uploading content frequently and upgrading the old.
 
-<br><br>  
+<br>  
 
 - #### [Basic](main/basic.md)
 - #### [Data Structures](main/data_structures.md)
