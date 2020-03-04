@@ -3,8 +3,8 @@
 
 ### Best Framework
 ##### Tutorials for Best Frameworks.
-- #### [Django]()
-- #### [Flask]()
+- #### [Django](frameworks/django.md)
+- #### [Flask](frameworks/flask.md)
 - #### []()
 - #### []()
 
