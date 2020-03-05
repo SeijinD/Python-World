@@ -19,3 +19,6 @@
 - #### [SQLAlchemy](main/sqlalchemy.md)
 - #### [MultiThreading](main/multithreading.md)
 - #### [Web Scraping](main/web_scraping.md)
+- #### [Machine Learning](main/machine_learning.md)
+- #### [Data Science](main/data_science.md)
+- #### [Cyber Security](main/cyber_security.md)

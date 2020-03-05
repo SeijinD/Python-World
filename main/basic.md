@@ -18,3 +18,4 @@
 - #### [Casting](basic/casting.md)
 - #### [Try Except](basic/try_except.md)
 - #### [Files](basic/files.md)
+- #### [Regular Expressions](basic/regular_expressions.md)
