@@ -3,8 +3,8 @@
 
 ### 1
 
-- #### [a]()
-- #### [b]()
+- #### [NumPy](libraries/numpy.md)
+- #### [Matplotlib](libraries/matplotlib.md)
 - #### [c]()
   
 ### 2
