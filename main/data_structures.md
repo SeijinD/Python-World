@@ -11,9 +11,9 @@
 
 ### User-Defined
 
-- #### [Stack](stack.md)
-- #### [Queue](queue.md)
-- #### [Tree](tree.md)
-- #### [Linked List](linked_list.md)
-- #### [Graph](graph.md)
-- #### [HashMap](hashmap.md)
+- #### [Stack](data_structures/stack.md)
+- #### [Queue](data_structures/queue.md)
+- #### [Tree](data_structures/tree.md)
+- #### [Linked List](data_structures/linked_list.md)
+- #### [Graph](data_structures/graph.md)
+- #### [HashMap](data_structures/hashmap.md)
