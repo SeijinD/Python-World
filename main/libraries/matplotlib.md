@@ -12,3 +12,60 @@ pip install matplotlib
 ~~~~
 import matplotlib.pyplot as plt
 ~~~~
+
+#### Create Title
+~~~~
+plt.title("Name")
+~~~~
+
+#### Create X and Y Labels
+~~~~
+plt.xlabel('Name')
+plt.ylabel('Name')
+~~~~
+~~~~
+plt.xlabel('Name', color='red')
+plt.ylabel('Name', color='#ff0000')
+~~~~
+
+#### Create Plot
+~~~~
+plt.plot()
+~~~~
+~~~~
+plt.plot(name_x, name_y)
+~~~~
+~~~~
+plt.plot(name_x, name_y, color='#ff0000')
+~~~~
+~~~~
+plt.plot(name_x, name_y, color='#ff0000', linestyle='--')
+~~~~
+~~~~
+plt.plot(name_x, name_y, color='#ff0000', linestyle='--', label="Name")
+~~~~
+
+#### Add Labels in Plot
+~~~~
+plt.legend()
+~~~~
+
+#### Show Plot
+~~~~
+plt.show()
+~~~~
+
+#### Save Plot In Image
+~~~~
+plt.savefig('name.png')
+~~~~
+~~~~
+plt.savefig('name.png', transparent = True) # Transparent Figure
+~~~~
+
+#### Close And Clear
+~~~~
+plt.cla() # Clear an axis
+plt.clf() # Clear the entire figure
+plt.close() # Close a window
+~~~~
