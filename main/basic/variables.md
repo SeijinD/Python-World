@@ -8,14 +8,14 @@
 - A variable is created the moment you first assign a value to it.
 
 #### Example:
-~~~~
+```python
 z = 5
 y = "John"
-~~~~
-~~~~
+```
+```python
 x = 4 # x is of type int
 x = "Sally" # x is now of type str
-~~~~
+```
 
 #### Variable Names
 - A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
@@ -25,20 +25,20 @@ x = "Sally" # x is now of type str
 - Variable names are case-sensitive (age, Age and AGE are three different variables)
 
 #### Assign Value to Multiple Variables
-~~~~
+```python
 x, y, z = "Orange", "Banana", "Cherry"
-~~~~
+```
 #### Same value to multiple variables in one line:
-~~~~
+```python
 x, y, z = "Orange"
-~~~~
+```
 #### To combine both text and a variable, Python uses the + character:
-~~~~
+```python
 x = "awesome"
 print("Python is " + x)
-~~~~
-~~~~
+```
+```python
 x = "Python is "
 y = "awesome"
 z =  x + y
-~~~~
+```

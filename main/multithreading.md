@@ -9,6 +9,6 @@ A thread is a separate flow of execution. This means that your program will have
 It’s tempting to think of threading as having two (or more) different processors running on your program, each one doing an independent task at the same time. That’s almost right. The threads may be running on different processors, but they will only be running one at a time. 
 
 #### Import Thread
-~~~~
+```python
 from threading import Thread
-~~~~
+```

@@ -7,14 +7,14 @@ The break statement terminates the loop containing it. Control of the program fl
 If break statement is inside a nested loop (loop inside another loop), break will terminate the innermost loop.
 
 #### Example:
-~~~~
+```python
 for val in "string":
     if val == "r":
         break
     print(val)
 
 print("The end.")
-~~~~
+```
 #### Result:
 ~~~~
 s

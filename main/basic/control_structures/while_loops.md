@@ -7,15 +7,15 @@ The while loop in Python is used to iterate over a block of code as long as the 
 We generally use this loop when we don't know beforehand, the number of times to iterate.
 
 #### While:
-~~~~
+```python
 while test_expression:
     Body of while
-~~~~
+```
 
 #### While with Else:
-~~~~
+```python
 while test_expression:
     Body of while
 else:
     Body of else
-~~~~
+```

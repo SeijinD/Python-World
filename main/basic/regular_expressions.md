@@ -8,94 +8,94 @@ RegEx can be used to check if a string contains the specified search pattern.
 
 #### RegEx Module
 Python has a built-in package called **re**, which can be used to work with Regular Expressions.
-~~~~
+```python
 import re 
-~~~~
+```
 
 #### RegEx Functions
 - ##### findall
   - Returns a list containing all matches
-    ~~~~
+    ```python
     import re
 
     txt = "The rain in Spain"
     x = re.findall("ai", txt)
     print(x)
-    ~~~~
+    ```
 - ##### search
   - Returns a Match object if there is a match anywhere in the string
-    ~~~~
+    ```python
     import re
 
     txt = "The rain in Spain"
     x = re.search("Portugal", txt)
     print(x) 
-    ~~~~
+    ```
 - ##### split
   - Returns a list where the string has been split at each match 
-    ~~~~
+    ```python
     import re
 
     txt = "The rain in Spain"
     x = re.split("\s", txt)
     print(x) 
-    ~~~~
+    ```
 - ##### sub
   - Replaces one or many matches with a string
-    ~~~~
+    ```python
     import re
 
     txt = "The rain in Spain"
     x = re.sub("\s", "9", txt)
     print(x) 
-    ~~~~
+    ```
 
 #### Metacharacters
 - ##### [ ]
   - A set of characters
-    ~~~~
+    ```python
     "[a-m]"
-    ~~~~
+    ```
 - ##### \
   - Signals a special sequence (can also be used to escape special characters)
-    ~~~~
+    ```python
     "\d"
-    ~~~~
+    ```
 - ##### .
   - Any character (except newline character)
-    ~~~~
+    ```python
     "he..o"
-    ~~~~
+    ```
 - ##### ^
   - Starts with
-    ~~~~
+    ```python
     "^hello"
-    ~~~~
+    ```
 - ##### $
   - Ends with
-    ~~~~    
+    ```python    
     "world$"
-    ~~~~
+    ```
 - ##### *
   - Zero or more occurrences
-    ~~~~
+    ```python
     "aix*"
-    ~~~~
+    ```
 - ##### +
   - One or more occurrences
-    ~~~~
+    ```python
     "aix+"
-    ~~~~
+    ```
 - ##### {}
   - Exactly the specified number of occurrences
-    ~~~~
+    ```python
     "al{2}"
-    ~~~~
+    ```
 - ##### |
   - Either or
-    ~~~~
+    ```python
     "falls|stays"
-    ~~~~
+    ```
 - ##### ()
   - Capture and group
 

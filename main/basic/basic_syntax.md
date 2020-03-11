@@ -11,20 +11,20 @@
   
 - ### Comments
   - ##### One Line Comment
-    ~~~~
-    \# This is a comment.
-    ~~~~
+    ```python
+    # This is a comment.
+    ```
   - ##### Multi-Line Comment
-    ~~~~
-    \# This is a comment
-    \# written in
-    \# more than just one line. xD
-    ~~~~
+    ```python
+    # This is a comment
+    # written in
+    # more than just one line. xD
+    ```
     ###### or
-    ~~~~
+    ```python
     """
     This is a comment
     written in
     more than just one line
     """
-    ~~~~
+    ```

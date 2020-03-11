@@ -9,25 +9,25 @@ Numpy is the core library for scientific computing in Python. It provides a high
 NumPy is often used along with packages like [SciPy](scipy.md) (Scientific Python) and [Matplotlib](matplotlib.md)  (plotting library). This combination is widely used as a replacement for MatLab, a popular platform for technical computing. However, Python alternative to MatLab is now seen as a more modern and complete programming language.
 
 #### Install NumPy
-~~~~
+```python
 pip install numpy
-~~~~
+```
 
 #### Import NumPy
-~~~~
+```python
 import numpy as np
-~~~~
+```
 
 #### Create Arrays
-~~~~
+```python
 a = np.array([1,2,3])
 b = np.array([(1.5,2,3), (4,5,6)], dtype = float)
 c = np.array([[(1.5,2,3), (4,5,6)], [(3,2,1), (4,5,6)]], dtype = float)
 d = np.array( [ [1,2], [3,4] ], dtype=complex )
-~~~~
+```
 
 #### Print Arrays
-~~~~
+```python
 >>> a = np.arange(6)                         # 1d array
 >>> print(a)
 [0 1 2 3 4 5]
@@ -47,7 +47,7 @@ d = np.array( [ [1,2], [3,4] ], dtype=complex )
  [[12 13 14 15]
   [16 17 18 19]
   [20 21 22 23]]]
-~~~~
+```
 
 - #### [Data Types](numpy/data_types.md)
 

@@ -6,17 +6,17 @@
 Booleans represent one of two values: True or False.
 
 The bool() function allows you to evaluate any value, and give you True or False in return:
-~~~~
+```python
 print(bool("Hello"))
 print(bool(15))
-~~~~
-~~~~
+```
+```python
 x = "Hello"
 y = 15
 
 print(bool(x))
 print(bool(y))
-~~~~
+```
 
 #### Most Values are True
 - Almost any value is evaluated to True if it has some sort of content.

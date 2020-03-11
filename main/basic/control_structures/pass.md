@@ -7,14 +7,14 @@ Pass is a null statement. The difference between a comment and pass statement in
 However, nothing happens when pass is executed. It results into no operation (NOP).
 
 #### Example:
-~~~~
+```python
 for val in "string":
     if val == "r":
         pass
     print(val)
 
 print("The end.")
-~~~~
+```
 #### Result:
 ~~~~
 s
@@ -27,11 +27,11 @@ The end.
 ~~~~
 
 #### We can do the same thing in an empty function or class as well:
-~~~~
+```python
 def function(args):
     pass
-~~~~
-~~~~
+```
+```python
 class example:
     pass
-~~~~
+```
