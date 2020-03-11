@@ -62,3 +62,5 @@ d = np.array( [ [1,2], [3,4] ], dtype=complex )
 - #### [Array Manipulation](numpy/array_manipulation.md)
 
 - #### [I/O](numpy/i_o.md)
+
+- #### [Tips*](numpy/numpy_tips.md)
