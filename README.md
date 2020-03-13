@@ -25,3 +25,4 @@
 - #### [Data Science](main/data_science.md)
 - #### [Cyber Security](main/cyber_security.md)
 - #### [Algorithms](main/algorithms.md)
+- #### [Other](main/other.md)

@@ -24,3 +24,4 @@ The concept of OOP in Python focuses on creating reusable code. This concept is 
 - #### [Inheritance](oop/inheritance.md)
 - #### [Encapsulation](oop/encapsulation.md)
 - #### [Polymorphism](oop/polymorphism.md)
+- #### [Operator Overloading](oop/operator_overloading.md)
