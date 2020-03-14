@@ -3,15 +3,22 @@
 # Libraries
 ---
 
-### 1
+### Data Science
 
 - #### [NumPy](libraries/numpy.md)
 - #### [Matplotlib](libraries/matplotlib.md)
 - #### [Scipy](libraries/scipy.md)
   
-### 2
+### Web Scraping
 
-- #### [a]()
-- #### [b]()
-- #### [c]()
+- #### [Requests](libraries/requests.md)
+- #### [BeautifulSoup](libraries/beautifulsoup.md)
+- #### [Selenium](libraries/selenium.md)
+- #### [Scrapy](libraries/scrapy.md)
+- #### [Lxml](libraries/lxml.md)
+
+### Example
+
+- #### [Pandas](libraries/pandas.md)
+- #### []()
 
