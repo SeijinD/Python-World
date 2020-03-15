@@ -1,6 +1,6 @@
 [Back](../README.md)
 
-# MultiThreading
+# Multi-Threading/Processing
 ---
 
 #### What is Thread?
@@ -12,3 +12,12 @@ It’s tempting to think of threading as having two (or more) different processo
 ```python
 from threading import Thread
 ```
+
+#### What is Process?
+Multiprocessing allows you to create programs that can run concurrently (bypassing the [GIL](https://wiki.python.org/moin/GlobalInterpreterLock) ) and use the entirety of your CPU core. Though it is fundamentally different from the threading library, the syntax is quite similar. The multiprocessing library gives each process its own Python interpreter and each their own GIL.
+
+#### Import Process
+```python
+from multiprocessing import Process
+```
+
