@@ -5,18 +5,18 @@
 
 ### Data Science
 
-- #### [NumPy](libraries/numpy.md)
-- #### [Matplotlib](libraries/matplotlib.md)
-- #### [Scipy](libraries/scipy.md)
-- #### [Pandas](libraries/pandas.md)
+- #### [NumPy](extends_libraries/numpy.md)
+- #### [Matplotlib](extends_libraries/matplotlib.md)
+- #### [Scipy](extends_libraries/scipy.md)
+- #### [Pandas](extends_libraries/pandas.md)
   
 ### Web Scraping
 
-- #### [Requests](libraries/requests.md)
-- #### [BeautifulSoup](libraries/beautifulsoup.md)
-- #### [Selenium](libraries/selenium.md)
-- #### [Scrapy](libraries/scrapy.md)
-- #### [Lxml](libraries/lxml.md)
+- #### [Requests](extends_libraries/requests.md)
+- #### [BeautifulSoup](extends_libraries/beautifulsoup.md)
+- #### [Selenium](extends_libraries/selenium.md)
+- #### [Scrapy](extends_libraries/scrapy.md)
+- #### [Lxml](extends_libraries/lxml.md)
 
 ### Machine Learning
 
