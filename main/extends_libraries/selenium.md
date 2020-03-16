@@ -14,24 +14,6 @@ pip install selenium
 ```python
 from selenium import webdriver
 ``` 
-- Create a Beautiful Soup object from page.
-```python
-soup = BeautifulSoup(response.content, 'html.parser')
-``` 
-- Functions find() and find_all().
-Find() for get one result and find_all() for get all results.tt
-```python
-body = soup.find('body')
-div = soup.find_all('div')
-``` 
-- 
-```python
-
-``` 
-- 
-```python
-
-``` 
 - 
 ```python
 
