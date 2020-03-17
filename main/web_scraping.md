@@ -41,3 +41,70 @@
         lxml is a Python library which allows for easy handling of XML and HTML files, and can also be used for web scraping. There are a lot of off-the-shelf XML parsers out there, but for better results, developers sometimes prefer to write their own XML and HTML parsers. This is when the lxml library comes to play. The key benefits of this library are that it's ease of use, extremely fast when parsing large documents, very well documented, and provides easy conversion of data to Python data types, resulting in easier file manipulation.
 
 - ### Examples
+```python
+# Example 1:
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd # Pandas is useful library. (Go Extends Liraries)
+
+page = requests.get('https://meteo.gr/lab/book/index.cfm?city_id=1')
+soup = BeautifulSoup(page.content, 'html.parser')
+
+# Lists to store the scraped data in
+days = []
+temperatures = []
+# Extract data from individual dayblock
+for block in soup.find_all(class_ = 'dayblock'):
+    day = block.find(class_ = 'subheader_calendar')
+    # Data Number and Month Name
+    dom = block.find(class_ = 'datenumber_calendar').get_text()
+    month = block.find(class_ = 'month_calendar').get_text()
+    daystr = f"{dom} {month}"
+    days.append(daystr)
+    # Low and High Temperature
+    hightemp = block.find(class_ = 'hightemp').get_text()
+    lowtemp = block.find(class_ = 'lowtemp').get_text()
+    tempstr = f"{lowtemp} {hightemp}"
+    temperatures.append(tempstr)
+
+# Print in Table with Pandas
+weather_table = pd.DataFrame({
+    'Days' : days,
+    'Temperatures' : temperatures
+})
+# Extract to the csv file
+weather_table.to_csv('week_weather.csv')
+
+# ==================================================
+# Example 2:
+from selenium import webdriver
+import csv
+
+MAX_PAGE_NUM = 5
+MAX_PAGE_DIG = 3
+
+with open('result.csv', 'w', encoding='utf8') as f:
+    f.write("Buyers, Price \n")
+
+# Set driver with Firefox webdriver
+driver = webdriver.Firefox(executable_path="C:\\Python\\Tools\\geckodriver.exe")
+
+# Make loop for run all pages
+for i in range(1, MAX_PAGE_NUM + 1):
+    page_num = (MAX_PAGE_DIG - len(str(i))) * "0" +str(i)
+    url = "https://econpy.pythonanywhere.com/ex/" + page_num + ".html"
+    driver.get(url)
+
+    # Get buyers and prices by xpath
+    buyers = driver.find_elements_by_xpath('//div[@title="buyer-name"]')
+    prices = driver.find_elements_by_xpath('//span[@class="item-price"]')
+
+    # Write all buyers+prices in result.csv
+    with open('result.csv', 'a', encoding='utf8') as f:
+        f.write("Page" + str(i) + "\n")
+        for j in range(len(buyers)):
+            f.write(str(j) + ") " + buyers[j].text + " : " + prices[j].text + "\n")
+        
+# Close driver
+driver.close()
+```
