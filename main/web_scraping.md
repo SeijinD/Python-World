@@ -40,7 +40,4 @@
     - #### [Lxml](extends_libraries/lxml.md) (Full Tutorial)
         lxml is a Python library which allows for easy handling of XML and HTML files, and can also be used for web scraping. There are a lot of off-the-shelf XML parsers out there, but for better results, developers sometimes prefer to write their own XML and HTML parsers. This is when the lxml library comes to play. The key benefits of this library are that it's ease of use, extremely fast when parsing large documents, very well documented, and provides easy conversion of data to Python data types, resulting in easier file manipulation.
 
-    - #### [Pandas](extends_libraries/pandas.md) (Full Tutorial)
-        Pandas is an open-source, BSD-licensed Python library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
-
 - ### Examples

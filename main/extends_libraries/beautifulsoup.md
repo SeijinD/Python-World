@@ -11,15 +11,18 @@ Because BeautifulSoup can only parse the data and can’t retrieve the web pages
 ```python
 pip install beautifulsoup4
 ```
+
 - #### Use BeautifulSoup
 ```python
 from bs4 import BeautifulSoup
 ``` 
+
 - #### Make Soup Object
 ```python
 soup = BeautifulSoup(page.text, 'html.parser')
 soup = BeautifulSoup(page.content, 'html.parser')
 ```
+
 - #### Output From Soup Object
 ```python
 # HTML
@@ -29,6 +32,7 @@ print(soup) # Non-Pretty Print
 # String (Bad Way)
 print(soup.get_text())
 ```
+
 - #### Search
 ```python
 # CSS Selector
