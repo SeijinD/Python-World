@@ -82,6 +82,12 @@ a = "Hello, World!"
 print(a.upper()) 
 ```
 
+The **swapcase()** method returns the string with swap upper and lower case:
+```python
+a = "Hello, World!"
+print(a.upper()) 
+```
+
 The **replace()** method replaces a string with another string:
 ```python
 a = "Hello, World!"
