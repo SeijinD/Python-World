@@ -51,7 +51,7 @@ class_name = 'register'
 element = driver.find_element_by_class_name(class_name)
 # Find Element By Name
 name = 'register'
-element = driver.find_element_by_id(name)
+element = driver.find_element_by_name(name)
 # Find Element By Tag
 tag_name = 'a'
 element = driver.find_element_by_tag_name(tag_name)
